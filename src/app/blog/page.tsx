@@ -15,10 +15,10 @@ export default function Products() {
     <div>
       {loading ? (
         // Display a loading status bar while loading is true
-        <div className="loading-bar">Loading...</div>
+        <div className="loading-bar border border-gray-400 rounded p-2">Loading...</div>
       ) : (
         // Render the content of the Blog page when loading is false
-        <div className="text-amber-950 text-2xl">
+        <div className="text-amber-950 text-2xl border border-gray-400 rounded p-4">
           <h1>Blog Page rendered after some loading!!</h1>
         </div>
       )}
